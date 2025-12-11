@@ -15,19 +15,28 @@ metadata:
     app: web
     tier: frontend
 ```
+
+  ![labels-ckc](../../images/labels-ckc.PNG)
+
 Labels do NOTHING by themselves. They simply **tag** an object with information.
 
 ### What is a Selector?
 
-#### Labels and Selectors are standard methods to group things together.
-  
-#### Labels are properties attached to each item.
+A selector finds objects that match certain labels.
 
-  ![labels-ckc](../../images/labels-ckc.PNG)
-  
-#### Selectors help you to filter these items
- 
   ![sl](../../images/sl.PNG)
+
+It is used by:
+
+- ReplicaSet
+- Deployment
+- Service
+- HPA
+- NetworkPolicy
+- Jobs
+- StatefulSets
+
+Selectors connect workloads to Pods.  
   
 How are labels and selectors are used in kubernetes?
 - We have created different types of objects in kubernetes such as **`PODs`**, **`ReplicaSets`**, **`Deployments`** etc.
