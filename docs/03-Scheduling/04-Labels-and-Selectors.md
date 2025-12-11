@@ -37,7 +37,31 @@ It is used by:
 - StatefulSets
 
 Selectors connect workloads to Pods.  
-  
+
+Example: Deployment using `labels` and `selector`
+```yaml title="deployment.yaml" linenums="1"
+spec:
+  selector:
+    matchLabels:
+      app: web                 # selector
+  template:
+    metadata:
+      labels:
+        app: web               # labels on Pod
+```
+
+**Relationship:**
+
+- Deployment `selector` → find Pods with **app=web**
+- Deployment `template` `labels` → create Pods with **app=web**
+
+If `labels` do not match the `selector` → Deployment will NOT manage those Pods.
+
+
+
+
+
+
 How are labels and selectors are used in kubernetes?
 - We have created different types of objects in kubernetes such as **`PODs`**, **`ReplicaSets`**, **`Deployments`** etc.
   
