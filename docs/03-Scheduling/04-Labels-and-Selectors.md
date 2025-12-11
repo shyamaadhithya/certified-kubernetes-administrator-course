@@ -1,5 +1,6 @@
 # Labels and Selectors
-  - Take me to [Video Tutorial](https://kodekloud.com/topic/labels-and-selectors/)
+
+_Take me to [Video Tutorial](https://kodekloud.com/topic/labels-and-selectors/)_
   
 In this section, we will take a look at **`Labels and Selectors`**
 
@@ -57,18 +58,13 @@ spec:
 
 If `labels` do not match the `selector` → Deployment will NOT manage those Pods.
 
-
-
-
-
-
-How are labels and selectors are used in kubernetes?
+### How are labels and selectors are used in kubernetes?
 - We have created different types of objects in kubernetes such as **`PODs`**, **`ReplicaSets`**, **`Deployments`** etc.
   
   ![ls](../../images/ls.PNG)
   
 How do you specify labels?
-   ```
+   ```yaml linenums="1" title="pod-definition.yaml"
     apiVersion: v1
     kind: Pod
     metadata:
@@ -86,12 +82,12 @@ How do you specify labels?
  ![lpod](../../images/lpod.PNG)
  
 Once the pod is created, to select the pod with labels run the below command
-```
+```bash
 $ kubectl get pods --selector app=App1
 ```
 
 Kubernetes uses labels to connect different objects together
-   ```
+   ```yaml title="replicaset.yaml" linenums="1"
     apiVersion: apps/v1
     kind: ReplicaSet
     metadata:
@@ -119,7 +115,7 @@ Kubernetes uses labels to connect different objects together
 
 For services
  
-      ```
+      ```yaml title="services.yaml" linenums="1"
       apiVersion: v1
       kind: Service
       metadata:
@@ -136,7 +132,7 @@ For services
   
 ## Annotations
 - While labels and selectors are used to group objects, annotations are used to record other details for informative purpose.
-    ```
+    ```yaml title="annotation.yaml" linenums="1"
     apiVersion: apps/v1
     kind: ReplicaSet
     metadata:
