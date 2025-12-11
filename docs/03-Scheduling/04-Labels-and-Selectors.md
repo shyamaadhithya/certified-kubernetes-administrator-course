@@ -87,6 +87,7 @@ $ kubectl get pods --selector app=App1
 ```
 
 Kubernetes uses labels to connect different objects together
+
    ```yaml title="replicaset.yaml" linenums="1"
     apiVersion: apps/v1
     kind: ReplicaSet
@@ -127,7 +128,7 @@ For services
        - protocol: TCP
          port: 80
          targetPort: 9376 
-       ```
+      ```
 
   ![lrs1](../../images/lrs1.PNG)
   
