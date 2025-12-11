@@ -128,6 +128,7 @@ For services
          port: 80
          targetPort: 9376 
        ```
+       
   ![lrs1](../../images/lrs1.PNG)
   
 ## Annotations
