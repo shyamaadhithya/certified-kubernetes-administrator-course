@@ -9,7 +9,7 @@ Labels are key-value pairs attached to Kubernetes objects (Pods, Deployments, Se
 They are used to identify, group, and select objects.
 
 Example of labels:
-```yaml linenums="1"
+```yaml linenums="1" hl_line="2"
 metadata:
   labels:
     app: web
