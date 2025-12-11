@@ -115,7 +115,7 @@ Kubernetes uses labels to connect different objects together
 
 For services
  
-      ```yaml title="services.yaml" linenums="1"
+      ```yaml title="service.yaml" linenums="1"
       apiVersion: v1
       kind: Service
       metadata:
@@ -128,7 +128,7 @@ For services
          port: 80
          targetPort: 9376 
        ```
-       
+
   ![lrs1](../../images/lrs1.PNG)
   
 ## Annotations
