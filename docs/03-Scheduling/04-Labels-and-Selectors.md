@@ -115,20 +115,20 @@ Kubernetes uses labels to connect different objects together
   ![lrs](../../images/lrs.PNG)
 
 For services
- 
-      ```yaml title="service.yaml" linenums="1"
-      apiVersion: v1
-      kind: Service
-      metadata:
-       name: my-service
-      spec:
-       selector:
-         app: App1
-       ports:
-       - protocol: TCP
-         port: 80
-         targetPort: 9376 
-      ```
+
+    ```yaml title="service.yaml" linenums="1"
+    apiVersion: v1
+    kind: Service
+    metadata:
+      name: my-service
+    spec:
+      selector:
+        app: App1
+      ports:
+      - protocol: TCP
+        port: 80
+        targetPort: 9376 
+    ```
 
   ![lrs1](../../images/lrs1.PNG)
   
