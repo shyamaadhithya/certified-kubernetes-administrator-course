@@ -4,7 +4,7 @@
 In this section, we will take a look at **`Labels and Selectors`**
 
 ### What are Labels?
-Labels are key-value pairs attached to Kubernetes objects (Pods, Deployments, Services, Nodes, etc.).
+`Labels` are **key-value** pairs attached to Kubernetes objects (`Pods`, `Deployments`, `Services`, `Nodes`, etc.).
 
 They are used to identify, group, and select objects.
 
@@ -16,6 +16,8 @@ metadata:
     tier: frontend
 ```
 Labels do NOTHING by themselves. They simply **tag** an object with information.
+
+### What is a Selector?
 
 #### Labels and Selectors are standard methods to group things together.
   
