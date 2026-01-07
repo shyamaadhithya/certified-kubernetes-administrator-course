@@ -24,7 +24,7 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [10-Kube-Proxy](docs/02-Core-Concepts/10-Kube-Proxy.md)
   - [11-Pods](docs/02-Core-Concepts/11-Pods.md)
   - [12-Practice-Test-PODs](docs/02-Core-Concepts/12-Practice-Test-PODs.md)
-  - [12a-Practice-Lab-PODs](docs/02-Core-Concepts/12a-Practice-Lab-PODs.md)
+  - [12.1-Practice-Lab-PODs](docs/02-Core-Concepts/12.1-Practice-Lab-PODs.md)
   - [13-ReplicaSets](docs/02-Core-Concepts/13-ReplicaSets.md)
   - [14-Practice-Tests-ReplicaSet](docs/02-Core-Concepts/14-Practice-Tests-ReplicaSet.md)
   - [15-Deployments](docs/02-Core-Concepts/15-Deployments.md)
