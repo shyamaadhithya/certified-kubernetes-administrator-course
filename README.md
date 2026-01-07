@@ -27,6 +27,7 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [12.1-Practice-Lab-PODs](docs/02-Core-Concepts/12.1-Practice-Lab-PODs.md)
   - [13-ReplicaSets](docs/02-Core-Concepts/13-ReplicaSets.md)
   - [14-Practice-Tests-ReplicaSet](docs/02-Core-Concepts/14-Practice-Tests-ReplicaSet.md)
+  - [14.1-Practice-Lab-ReplicaSet](docs/02-Core-Concepts/14.1-Practice-Lab-ReplicaSet.md)
   - [15-Deployments](docs/02-Core-Concepts/15-Deployments.md)
   - [16-Practice-Tests-Deployments](docs/02-Core-Concepts/16-Practice-Tests-Deployments.md)
   - [17-Namespaces](docs/02-Core-Concepts/17-Namespaces.md)
