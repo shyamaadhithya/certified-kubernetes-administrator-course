@@ -23,7 +23,7 @@ These are notes from the [Certified Kubernetes Administrator Course](https://kod
   - [09-Kubelet](docs/02-Core-Concepts/09-Kubelet.md)
   - [10-Kube-Proxy](docs/02-Core-Concepts/10-Kube-Proxy.md)
   - [11-Pods](docs/02-Core-Concepts/11-Pods.md)
-  - [Practical-Lab-Pods](docs/02-Core-Concepts/labs-pods.md)
+  - [11a-Pods LAB](docs/02-Core-Concepts/11a-Pods-LAB.md)
   - [12-Practice-Test-PODs](docs/02-Core-Concepts/12-Practice-Test-PODs.md)
   - [13-ReplicaSets](docs/02-Core-Concepts/13-ReplicaSets.md)
   - [14-Practice-Tests-ReplicaSet](docs/02-Core-Concepts/14-Practice-Tests-ReplicaSet.md)
