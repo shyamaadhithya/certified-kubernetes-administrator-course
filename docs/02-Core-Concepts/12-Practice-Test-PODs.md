@@ -179,3 +179,30 @@
       ```
 
    </details>
+
+<details>
+<summary>2.1.2 List Namespaces</summary>
+
+This is the standard and most explicit way to list all namespaces:
+
+```bash
+kubectl get namespaces
+NAME              STATUS   AGE
+default           Active   6m50s
+kube-system       Active   6m49s
+kube-public       Active   6m49s
+kube-node-lease   Active   6m49s
+dev-environment   Active   27s
+app-prod          Active   32s
+```
+> The Kubernetes CLI provides shorthands for most resource types. The shorthand for namespaces is ns. This is the command you should primarily use in the CKA exam to save keystrokes and time.
+`kubectl get ns`
+
+| Column | Description                                      |
+|--------|--------------------------------------------------|
+| NAME   | The unique name of the namespace.                |
+| STATUS | The current state (usually Active or Terminating). |
+| AGE    | The time elapsed since the namespace was created. |
+
+---
+</details>
