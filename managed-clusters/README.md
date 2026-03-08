@@ -6,9 +6,13 @@ Managed clusters are where part of the cluster is managed by a major cloud provi
 
 Depending on the options chosen when creating, the worker nodes may be unmanaged, part or fully managed. However in the KodeKloud playgrounds only unmanaged nodes are available so that is what we will be creating.
 
-We have some instructions for building managed clusters in KodeKloud playgrounds below. **NOTE** If you are deploying a cluster as part of a lab exercise in one of the other courses, then wherever this guide tells you to run commands in a CloudShell terminal you must instead run those commands in the lab's terminal.
+We have some instructions for building managed clusters in KodeKloud playgrounds below. These builds fit within the IAM constraints of our playgrounds.
+
+**NOTE** If you are deploying a cluster as part of a lab exercise in one of the other courses, then wherever this guide tells you to run commands in a CloudShell terminal you must instead run those commands in the lab's terminal.
 
 * AWS EKS
+
+    These builds avoid the use of `eksctl`, managed node groups and EKS Auto Mode, none of which are supported by playground.
     * [Manual build using the console](./eks/console/README.md)
     * [Automated build using Terraform](https://github.com/kodekloudhub/amazon-elastic-kubernetes-service-course/blob/main/docs/playground.md)
 * Azure AKS
